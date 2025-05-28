@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="br.ufes.inf.lives.AppTest" time="0.022" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="br.ufes.inf.lives.AppTest" time="0.023" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/home/mlfrsantos/novo/mvnapp/target/test-classes:/home/mlfrsantos/novo/mvnapp/target/classes:/home/mlfrsantos/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/mlfrsantos/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.class.path" value="/home/mlfrsantos/novo/mvnapp/target/test-classes:/home/mlfrsantos/novo/mvnapp/target/classes:/home/mlfrsantos/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/mlfrsantos/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/mlfrsantos/.m2/repository/org/apache/commons/commons-csv/1.7/commons-csv-1.7.jar:/home/mlfrsantos/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.5.1/junit-jupiter-params-5.5.1.jar:/home/mlfrsantos/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/mlfrsantos/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.1/junit-jupiter-api-5.5.1.jar:/home/mlfrsantos/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/mlfrsantos/.m2/repository/org/junit/platform/junit-platform-commons/1.5.1/junit-platform-commons-1.5.1.jar:"/>
     <property name="java.vm.vendor" value="Ubuntu"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://ubuntu.com/"/>
@@ -12,9 +12,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-21-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/mlfrsantos/novo/mvnapp/target/surefire/surefirebooter13096150860054039970.jar /home/mlfrsantos/novo/mvnapp/target/surefire 2025-05-23T15-39-03_210-jvmRun1 surefire4938777957603214875tmp surefire_07614617669494430383tmp"/>
+    <property name="sun.java.command" value="/home/mlfrsantos/novo/mvnapp/target/surefire/surefirebooter11912495706085619634.jar /home/mlfrsantos/novo/mvnapp/target/surefire 2025-05-23T16-15-44_312-jvmRun1 surefire8962689836984612078tmp surefire_09520126457212561208tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/home/mlfrsantos/novo/mvnapp/target/test-classes:/home/mlfrsantos/novo/mvnapp/target/classes:/home/mlfrsantos/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/mlfrsantos/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="surefire.test.class.path" value="/home/mlfrsantos/novo/mvnapp/target/test-classes:/home/mlfrsantos/novo/mvnapp/target/classes:/home/mlfrsantos/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/mlfrsantos/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/mlfrsantos/.m2/repository/org/apache/commons/commons-csv/1.7/commons-csv-1.7.jar:/home/mlfrsantos/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.5.1/junit-jupiter-params-5.5.1.jar:/home/mlfrsantos/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/mlfrsantos/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.5.1/junit-jupiter-api-5.5.1.jar:/home/mlfrsantos/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/mlfrsantos/.m2/repository/org/junit/platform/junit-platform-commons/1.5.1/junit-platform-commons-1.5.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/mlfrsantos"/>
     <property name="user.language" value="en"/>
@@ -27,7 +27,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/home/mlfrsantos/novo/mvnapp/target/surefire/surefirebooter13096150860054039970.jar"/>
+    <property name="surefire.real.class.path" value="/home/mlfrsantos/novo/mvnapp/target/surefire/surefirebooter11912495706085619634.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.6+7-Ubuntu-124.04.1"/>
     <property name="user.name" value="mlfrsantos"/>
@@ -53,5 +53,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="br.ufes.inf.lives.AppTest" time="0.001"/>
+  <testcase name="shouldAnswerWithTrue" classname="br.ufes.inf.lives.AppTest" time="0.002"/>
 </testsuite>

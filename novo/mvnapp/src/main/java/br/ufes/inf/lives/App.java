@@ -15,7 +15,9 @@ import org.apache.commons.csv.CSVFormat;
  */
 public class App {
     public static void main(String[] args) throws Exception {
-        Reader in = new FileReader("female-and-male-life-expectancy-at-birth-in-years.csv");
+        String gen = "fem";
+        CountryLineList lista = new CountryLineList("female-and-male-life-expectancy-at-birth-in-years.csv", "2003","fem");
+        /*Reader in = new FileReader("female-and-male-life-expectancy-at-birth-in-years.csv");
         Iterable<CSVRecord> records = CSVFormat.EXCEL.parse(in);
         LinkedList<Pais> paises = new LinkedList<>();
         for (CSVRecord record : records) {
@@ -29,11 +31,12 @@ public class App {
             }
 
         }
-        Collections.sort(paises, new ComparaPaises());
+        Collections.sort(paises, new ComparaPaises());*/
+       
         int i = 0;
-        for(Pais p: paises){
+        for(CountryLine p: lista.getPaises()){
             i++;
             System.out.println(i + "° - " + p.getNome() + ", " +  p.getExpectativa() );
-        }
+        } 
     }
 }
